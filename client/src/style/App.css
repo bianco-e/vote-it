@@ -1,0 +1,85 @@
+.App {
+  align-items: center;
+  color: #e8f5ff;
+  background-image: linear-gradient(90deg, #6bbef9 50%, #ff97d9 50%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.vote-options-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.vote-option-container {
+  align-items: center;
+  display: flex;
+}
+
+.vote-option-input {
+  background: none;
+  border: 0;
+  border-bottom: 2px solid #e8f5ff;
+  color: #e8f5ff;
+  font-size: 20px;
+  min-width: 300px;
+  padding: 5px 0;
+  outline: none;
+}
+
+.vote-option-add-button {
+  background: none;
+  border: 0;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.vote-option-remove-button {
+  background: none;
+  border: 0;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.primary-button {
+  background-image: linear-gradient(90deg, #ff97d9 50%, #6bbef9 50%);
+  border: 0;
+  border-radius: 15px;
+  box-shadow: inset -6px 10px 10px rgba(232, 245, 255, 0.5);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 25px;
+  transition: all 0.4s ease;
+  width: 300px;
+}
+.primary-button:hover {
+  transform: scale(1.2);
+}
+.primary-button:active {
+  box-shadow: inset -7px 11px 11px rgba(232, 245, 255, 0.7);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

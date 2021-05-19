@@ -1,0 +1,4 @@
+module.exports = {
+  ADD_VOTE: "ADD_VOTE",
+  GET_UPDATED_OPTIONS: "GET_UPDATED_OPTIONS",
+};
